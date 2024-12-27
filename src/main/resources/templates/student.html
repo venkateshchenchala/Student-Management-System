@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student</title>
+</head>
+<body>
+    <h1>Student</h1>
+    <p>ID:
+		 <span th:text="${student.id}"></span>
+		 </p>
+    <p> Full Name:
+		 <span th:text="${student.name}"></span>
+		 </p>
+		 <p> DOB:
+		 <span th:text="${student.dob}"></span>
+		 </p>
+		 <p> Gender:
+		 <span th:text="${student.gender}"></span>
+		
+    <p>Email: 
+		<span th:text="${student.email}"></span>
+		</p>
+		<p>Mobile Number: 
+		<span th:text="${student.number}"></span>
+		</p>
+		
+		<p>Select Course: 
+		<span th:text="${student.course}"></span>
+		</p>
+		 </p>
+		  <p> Select City:
+		 <span th:text="${student.city}"></span>
+		 </p>
+</body>
+</html>
